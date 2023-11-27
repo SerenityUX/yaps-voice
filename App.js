@@ -141,7 +141,7 @@ export default function App() {
 
 
   async function updateAudios() {
-    fetch('https://cdn-audio-yeah.vercel.app/api/list')
+    fetch('https://serenidadcdn.vercel.app/api/list')
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
